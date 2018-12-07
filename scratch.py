@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 
 
 driver = webdriver.Firefox()
-driver.get("https://google.com")
+driver.get("https://gmail.com")
 assert "Google" in driver.title
 elem = driver.find_element_by_name("q")
 elem.clear()
